@@ -28,6 +28,19 @@ gal.addEventListener("click", p2)
 cnt.addEventListener("click", p3)
 ex.addEventListener("click", p4)
 //end of event listeners
+//on leave
+window.onclose = function(){
+alert("hi")
+
+}
+
+
+
+//end
+
+
+
+
 //highlight
 function h1(){
 	home.style = " color:#70ff96; border:4px solid #70ff96;"
