@@ -23,7 +23,7 @@ home.addEventListener("mouseleave", n1)
 //on leave
 
 	function show(){
-		game.style = "display: block;
+		game.style = "display: block;"
 
 	}
 
