@@ -30,7 +30,7 @@ ex.addEventListener("click", p4)
 //end of event listeners
 //on leave
 window.onblur = function(){
-alert("hi")
+p1()
 
 }
 
