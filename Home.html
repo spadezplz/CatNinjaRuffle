@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
    
-<meta name="google-signin-client_id" content="613060468890-63peli3qfj8ri6v0tpuppe134itm5hmv.apps.googleusercontent.com">
-
     <link rel="icon" type="image/png" href="favicon-32x32.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +14,7 @@
 
 <link rel="stylesheet" href="Home.css">
 <nav id="navi" style="border:3px solid #70ff96">
-   <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  
    <center>
     <button id="home">Home</button>
 <button id="gal">Gallery</button>
@@ -26,6 +24,31 @@
 
 
 <div id="hme" style="display: block;">
+
+   <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Your Role: <select name="role[]" multiple>
+          <option value="leader">Leader</option>
+          <option value="follower">Follower</option>
+        </select></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+    
+
+
+
 <center><p style="border:3px solid #70ff96;">
 <br>
 Hello!
@@ -81,15 +104,7 @@ If you want it to be up here.
 
 
   
-<script src="https://apis.google.com/js/platform.js" async defer>
-   function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  alert('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
-   </script>
+
 <script src="Home.js"></script>
 </body>
 </html>
