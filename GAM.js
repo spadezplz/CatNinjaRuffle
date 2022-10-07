@@ -17,32 +17,17 @@ home.addEventListener("mouseleave", n1)
 //end of event listeners
 //on leave
 window.onfocus = function(){
-setInterval(function(){
-tim--
-title.innerHTML = tim
-
-if (tim == -1){
-	tim = 10
-	clearInterval()
-	title.innerHTML = 'TWHG'
-}
-
-},1000)
-
-
+	setTimeout(function(){
+		game.style = "display: block;"
+	
+	
+	},10000)
 }
 
 
 
 window.onblur = function(){
 game.style = "display: none;"
-setTimeout(function(){
-	game.style = "display: block;"
-
-
-},11000)
-
-
 }
 
 
