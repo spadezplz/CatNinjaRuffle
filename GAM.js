@@ -5,7 +5,12 @@ var home = document.getElementById("home")
 var hme = document.getElementById("hme")
 var tim = 10
 //end of variables
+window.onkeydown = function(e){
+if(e.key = '7'){
+	show()
+}
 
+}
 //event listeners
 home.addEventListener("mouseover", h1)
 
@@ -16,13 +21,12 @@ home.addEventListener("mouseleave", n1)
 
 //end of event listeners
 //on leave
-window.onfocus = function(){
-	setTimeout(function(){
-		game.style = "display: block;"
-	
-	
-	},10000)
-}
+
+	function show(){
+		game.style = "display: block;
+
+	}
+
 
 
 
