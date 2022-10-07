@@ -18,13 +18,15 @@ home.addEventListener("mouseleave", n1)
 //on leave
 window.onblur = function(){
 game.style = "display: none;"
-
-
-}
-function open(){
+setTimeout(function(){
 	game.style = "display: block;"
 
+
+},1000)
+
+
 }
+
 
 
 //end
