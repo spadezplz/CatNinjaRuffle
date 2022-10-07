@@ -21,7 +21,9 @@ setInterval(function(){
 tim--
 title.innerHTML = tim
 
-
+if (tim == -1){
+	clearInterval()
+}
 
 },1000)
 
@@ -36,7 +38,7 @@ setTimeout(function(){
 	game.style = "display: block;"
 
 
-},10000)
+},11000)
 
 
 }
