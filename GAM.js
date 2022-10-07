@@ -22,7 +22,9 @@ tim--
 title.innerHTML = tim
 
 if (tim == -1){
+	tim = 10
 	clearInterval()
+	title.innerHTML = 'TWHG'
 }
 
 },1000)
