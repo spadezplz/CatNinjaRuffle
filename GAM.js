@@ -21,7 +21,10 @@ game.style = "display: none;"
 
 
 }
+function open(){
+	game.style = "display: block;"
 
+}
 
 
 //end
