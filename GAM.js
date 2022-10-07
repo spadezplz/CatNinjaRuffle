@@ -19,7 +19,7 @@ home.addEventListener("mouseleave", n1)
 window.onfocus = function(){
 setInterval(function(){
 tim--
-title = tim
+title.innerHTML = tim
 
 
 
