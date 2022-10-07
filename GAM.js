@@ -22,7 +22,7 @@ setTimeout(function(){
 	game.style = "display: block;"
 
 
-},1000)
+},5000)
 
 
 }
