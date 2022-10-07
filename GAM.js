@@ -40,13 +40,6 @@ function n1(){
 }
 
 //
-function p1(){
-	title.innerHTML = "Home"
-	navi.style = "border:3px solid #70ff96"
-	hme.style = "display: block;"
-	gall.style = "display: none;"
-	cntc.style = "display: none;"
-	ext.style = "display: none;"
-}
+
 
 //end of style script
