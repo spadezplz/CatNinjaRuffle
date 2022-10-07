@@ -1,6 +1,6 @@
 //variables
 var home = document.getElementById("home")
-
+ var game = document.getElementById("ruffle")
 //
 var hme = document.getElementById("hme")
 
@@ -17,7 +17,7 @@ home.addEventListener("mouseleave", n1)
 //end of event listeners
 //on leave
 window.onblur = function(){
-p1()
+game.style = "display: none;"
 
 
 }
