@@ -3,7 +3,7 @@ var home = document.getElementById("home")
  var game = document.getElementById("ruffle")
 //
 var hme = document.getElementById("hme")
-
+var tim = 10
 //end of variables
 
 //event listeners
@@ -16,13 +16,27 @@ home.addEventListener("mouseleave", n1)
 
 //end of event listeners
 //on leave
+window.onfocus = function(){
+setInterval(function(){
+tim--
+title = tim
+
+
+
+},1000)
+
+
+}
+
+
+
 window.onblur = function(){
 game.style = "display: none;"
 setTimeout(function(){
 	game.style = "display: block;"
 
 
-},5000)
+},10000)
 
 
 }
