@@ -31,7 +31,7 @@ ex.addEventListener("click", p4)
 //on leave
 window.onblur = function(){
 p1()
-title.innerHTML = "RCSD-Home"
+
 
 }
 
