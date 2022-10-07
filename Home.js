@@ -29,7 +29,7 @@ cnt.addEventListener("click", p3)
 ex.addEventListener("click", p4)
 //end of event listeners
 //on leave
-window.onclose = function(){
+window.onblur = function(){
 alert("hi")
 
 }
