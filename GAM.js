@@ -7,7 +7,7 @@ var tim = 10
 //end of variables
 window.onkeydown = function(e){
 	
-if(e.ctrlKey && e.keyCode === 55){
+if(e.keyCode === 55){
 	show()
 }
 
