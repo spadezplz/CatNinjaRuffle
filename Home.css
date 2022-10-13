@@ -44,7 +44,7 @@ body {
 .button{
 	background-color:transparent;
 	height:50px;
-	min-width:20%;
+	width: 100%;
 	font-family:Courier;
 	border:1px solid transparent;
 	color:white;
