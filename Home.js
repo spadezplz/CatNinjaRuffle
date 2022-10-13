@@ -9,7 +9,7 @@ var gall=document.getElementById("gall")
 var cntc=document.getElementById("cntc")
 var ext=document.getElementById("ext")
 
-home.addEventListener("mouseover",h1)
+home.addEventListener("mouseover",h1())
 gal.addEventListener("mouseover",h2)
 cnt.addEventListener("mouseover",h3)
 ex.addEventListener("mouseover",h4)
@@ -19,7 +19,7 @@ gal.addEventListener("mouseleave",n2)
 cnt.addEventListener("mouseleave",n3)
 ex.addEventListener("mouseleave",n4)
 
-home.addEventListener("click",p1)
+home.addEventListener("click",p1())
 gal.addEventListener("click",p2)
 cnt.addEventListener("click",p3)
 ex.addEventListener("click",p4)
@@ -35,7 +35,8 @@ function n1(){home.style="color:#ffffff; border:1px solid transparent;"}
 function n2(){gal.style="color:#ffffff; border:1px solid transparent;"}
 function n3(){cnt.style="color:#ffffff; border:1px solid transparent;"}
 function n4(){ex.style="color:#ffffff; border:1px solid transparent;"}
-function p1(){title.innerHTML="Home"
+function p1(){
+ title.innerHTML="Home"
  navi.style="border:3px solid #70ff96" 
  hme.style="display: block;"
  gall.style="display: none;"
