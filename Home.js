@@ -14,8 +14,8 @@ gal.addEventListener("mouseover",h2())
 cnt.addEventListener("mouseover",h3)
 ex.addEventListener("mouseover",h4)
 
-home.addEventListener("mouseleave",n1)
-gal.addEventListener("mouseleave",n2)
+home.addEventListener("mouseleave",n1())
+gal.addEventListener("mouseleave",n2())
 cnt.addEventListener("mouseleave",n3)
 ex.addEventListener("mouseleave",n4)
 
