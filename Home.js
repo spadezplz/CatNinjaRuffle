@@ -44,7 +44,7 @@ p1()
 
 //highlight
 function h1(){
-	home.style = " color:#70ff96; border:4px solid #70ff96; cursor:url(IMG/gcur.png);"
+	home.style = " color:#70ff96; border:4px solid #70ff96; cursor:url(IMG/gcur.png), auto;"
 	
 }
 function h2(){
