@@ -5,6 +5,7 @@ var cnt = document.getElementById("cnt")
 var ex = document.getElementById("ex")
 var navi = document.getElementById("navi")
 var title = document.getElementById("title")
+var ht = document.getElementById("ht")
 //
 var hme = document.getElementById("hme")
 var gall = document.getElementById("gall")
@@ -71,6 +72,7 @@ function n4(){
 }
 //
 function p1(){
+	ht.style = "cursor:url('IMG/gcur.png'), auto;"
 	title.innerHTML = "Home"
 	navi.style = "border:3px solid #70ff96"
 	hme.style = "display: block;"
