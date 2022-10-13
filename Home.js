@@ -3,7 +3,7 @@ var home=document.getElementById("home")
 var gal=document.getElementById("gal")
 var cnt=document.getElementById("cnt")
 var ex=document.getElementById("ex")
-//var navi=document.getElementById("navi")
+var navi=document.getElementById("navi")
 var hme=document.getElementById("hme")
 var gall=document.getElementById("gall")
 var cntc=document.getElementById("cntc")
@@ -34,7 +34,6 @@ function n3(){cnt.style="color:#ffffff; border:1px solid transparent;"}
 function n4(){ex.style="color:#ffffff; border:1px solid transparent;"}
 function p1(){
  title.innerHTML="Home"
- 
  navi.style="border:3px solid #70ff96" 
  hme.style="display: none;"
  gall.style="display: none;"
