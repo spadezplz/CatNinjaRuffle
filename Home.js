@@ -48,13 +48,13 @@ function h1(){
 	
 }
 function h2(){
-	gal.style = "color:#70deff; border:4px solid #70deff;"
+	gal.style = "color:#70deff; border:4px solid #70deff; cursor:url('IMG/bcur.png'), auto;"
 }
 function h3(){
-	cnt.style = "color:#cf70ff; border:4px solid #cf70ff;"
+	cnt.style = "color:#cf70ff; border:4px solid #cf70ff; cursor:url('IMG/pcur.png'), auto;"
 }
 function h4(){
-	ex.style = "color:#ffc370; border:4px solid #ffc370;"
+	ex.style = "color:#ffc370; border:4px solid #ffc370; cursor:url('IMG/ocur.png'), auto;"
 }
 //normal
 function n1(){
