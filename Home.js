@@ -24,7 +24,7 @@ gal.addEventListener("click",p2)
 cnt.addEventListener("click",p3)
 ex.addEventListener("click",p4)
 
-window.onblur=function(){p1()
+window.onblur=function(){p1()}
 
 
 function h1(){home.style=" color:#70ff96; border:4px solid #70ff96;"}
@@ -42,7 +42,8 @@ function p1(){title.innerHTML="Home"
  cntc.style="display: none;"
  ext.style="display: none;"
 }
-function p2(){title.innerHTML="Gallery"
+function p2(){
+title.innerHTML="Gallery"
 navi.style="border:3px solid #70deff"
 hme.style="display: none;"
 gall.style="display: block;"
@@ -57,7 +58,8 @@ gall.style="display: none;"
 cntc.style="display: block;"
 ext.style="display: none;"
 }
-function p4(){title.innerHTML="Extraz"
+function p4(){
+title.innerHTML="Extraz"
 navi.style="border:3px solid #ffc370"
 hme.style="display: none;"
 gall.style="display: none;"
