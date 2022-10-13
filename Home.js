@@ -19,10 +19,7 @@ gal.addEventListener("mouseleave",n2)
 cnt.addEventListener("mouseleave",n3)
 ex.addEventListener("mouseleave",n4)
 
-home.addEventListener("click",p1)
-gal.addEventListener("click",p2)
-cnt.addEventListener("click",p3)
-ex.addEventListener("click",p4)
+
 
 window.onblur=function(){p1()}
 
