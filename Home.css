@@ -35,8 +35,6 @@ p {
 }
 nav {
 	background-color: black;
-	border: 3px solid transparent;
-	border-radius: 3px;
 }
 .Thumb {
 	min-width: 25%;
