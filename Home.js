@@ -10,7 +10,7 @@ var cntc=document.getElementById("cntc")
 var ext=document.getElementById("ext")
 
 home.addEventListener("mouseover",h1())
-gal.addEventListener("mouseover",h2)
+gal.addEventListener("mouseover",h2())
 cnt.addEventListener("mouseover",h3)
 ex.addEventListener("mouseover",h4)
 
@@ -20,7 +20,7 @@ cnt.addEventListener("mouseleave",n3)
 ex.addEventListener("mouseleave",n4)
 
 home.addEventListener("click",p1())
-gal.addEventListener("click",p2)
+gal.addEventListener("click",p2())
 cnt.addEventListener("click",p3)
 ex.addEventListener("click",p4)
 
