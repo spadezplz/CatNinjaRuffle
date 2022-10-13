@@ -81,6 +81,7 @@ function p1(){
 	ext.style = "display: none;"
 }
 function p2(){
+	ht.style = "cursor:url('IMG/bcur.png'), auto;"
 	title.innerHTML = "Gallery"
 	navi.style = "border:3px solid #70deff"
 	hme.style = "display: none;"
@@ -89,6 +90,7 @@ function p2(){
 	ext.style = "display: none;"
 }
 function p3(){
+	ht.style = "cursor:url('IMG/pcur.png'), auto;"
 	title.innerHTML = "Contact Us"
 	navi.style = "border:3px solid #cf70ff"
 	hme.style = "display: none;"
@@ -97,6 +99,7 @@ function p3(){
 	ext.style = "display: none;"
 }
 function p4(){
+	ht.style = "cursor:url('IMG/ocur.png'), auto;"
 	title.innerHTML = "Extraz"
 	navi.style = "border:3px solid #ffc370"
 	hme.style = "display: none;"
