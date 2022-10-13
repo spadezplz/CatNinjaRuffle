@@ -37,6 +37,7 @@ function n3(){cnt.style="color:#ffffff; border:1px solid transparent;"}
 function n4(){ex.style="color:#ffffff; border:1px solid transparent;"}
 function p1(){
  title.innerHTML="Home"
+ alert()
  navi.style="border:3px solid #70ff96" 
  hme.style="display: none;"
  gall.style="display: none;"
