@@ -4,6 +4,7 @@
   <title>A static website</title>
 
   <!-- include the widget -->
+  <script>netlifyIdentity.on('login', user => alert('login', user));</script>
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
