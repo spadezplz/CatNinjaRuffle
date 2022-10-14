@@ -34,7 +34,7 @@ border:3px solid #ffc370;
 
   @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
+	.sidenav a {font-size: 10px;}
   }
 
 body {
@@ -50,7 +50,7 @@ body {
 	color:white;
 	border-radius:3px;
 	transition:border .2s, color .2s ease-in;
-	font-size:24px;
+	font: size 18px;
 	padding-right: 64;
 }
 p {
