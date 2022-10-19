@@ -124,7 +124,7 @@ function p4(){
 }
 function p5(){
 	ht.style = "cursor:url('IMG/rcur.png'), auto;"
-	title.innerHTML = "Downloadables"
+	title.innerHTML = "Downloads"
 	navi.style = "border:3px solid #e83a3a"
 	hme.style = "display: none;"
 	gall.style = "display: none;"
