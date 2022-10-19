@@ -63,7 +63,7 @@ function h4(){
 	ex.style = "color:#ffc370; border:4px solid #ffc370; cursor:url('IMG/ocur.png'), auto;"
 }
 function h5(){
-	dw.style = "color: #e83a3a; border:4px solid #ffc370; cursor:url('IMG/rcur.png'), auto;"
+	dw.style = "color: #e83a3a; border:4px solid #e83a3a; cursor:url('IMG/rcur.png'), auto;"
 }
 //normal
 function n1(){
