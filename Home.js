@@ -63,7 +63,7 @@ function h4(){
 	ex.style = "color:#ffc370; border:4px solid #ffc370; cursor:url('IMG/ocur.png'), auto;"
 }
 function h5(){
-	ex.style = "color: #e83a3a; border:4px solid #ffc370; cursor:url('IMG/rcur.png'), auto;"
+	dw.style = "color: #e83a3a; border:4px solid #ffc370; cursor:url('IMG/rcur.png'), auto;"
 }
 //normal
 function n1(){
@@ -79,7 +79,7 @@ function n4(){
 	ex.style = "color:#ffffff; border:1px solid transparent;"
 }
 function n5(){
-	ex.style = "color:#ffffff; border:1px solid transparent;"
+	dw.style = "color:#ffffff; border:1px solid transparent;"
 }
 //
 function p1(){
