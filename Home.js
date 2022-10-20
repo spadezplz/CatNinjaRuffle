@@ -35,11 +35,7 @@ ex.addEventListener("click", p4)
 dw.addEventListener("click", p5)
 //end of event listeners
 //on leave
-window.onblur = function(){
-p1()
 
-
-}
 
 
 
