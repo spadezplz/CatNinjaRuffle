@@ -4,7 +4,7 @@ var gal = document.getElementById("gal")
 var cnt = document.getElementById("cnt")
 var ex = document.getElementById("ex")
 var dw = document.getElementById("dw")
-var navi = document.getElementById("navi")
+
 var title = document.getElementById("title")
 var ht = document.getElementById("ht")
 //
@@ -81,7 +81,7 @@ function n5(){
 function p1(){
 	ht.style = "cursor:url('IMG/gcur.png'), auto;"
 	title.innerHTML = "Home"
-	navi.style = "border:3px solid #70ff96"
+
 	hme.style = "display: block;"
 	gall.style = "display: none;"
 	cntc.style = "display: none;"
@@ -91,7 +91,7 @@ function p1(){
 function p2(){
 	ht.style = "cursor:url('IMG/bcur.png'), auto;"
 	title.innerHTML = "Gallery"
-	navi.style = "border:3px solid #70deff"
+	
 	hme.style = "display: none;"
 	gall.style = "display: block;"
 	cntc.style = "display: none;"
@@ -101,7 +101,6 @@ function p2(){
 function p3(){
 	ht.style = "cursor:url('IMG/pcur.png'), auto;"
 	title.innerHTML = "Contact Us"
-	navi.style = "border:3px solid #cf70ff"
 	hme.style = "display: none;"
 	gall.style = "display: none;"
 	cntc.style = "display: block;"
@@ -111,7 +110,6 @@ function p3(){
 function p4(){
 	ht.style = "cursor:url('IMG/ocur.png'), auto;"
 	title.innerHTML = "Online-Arcade"
-	navi.style = "border:3px solid #ffc370"
 	hme.style = "display: none;"
 	gall.style = "display: none;"
 	cntc.style = "display: none;"
@@ -121,7 +119,7 @@ function p4(){
 function p5(){
 	ht.style = "cursor:url('IMG/rcur.png'), auto;"
 	title.innerHTML = "Downloads"
-	navi.style = "border:3px solid #e83a3a"
+	
 	hme.style = "display: none;"
 	gall.style = "display: none;"
 	cntc.style = "display: none;"
