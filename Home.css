@@ -26,7 +26,7 @@ body {
 }
 .button{
 	background-color:transparent;
-	
+	float: right;
 	width: 100%;
 	font-family:Courier;
 	border:1px solid transparent;
