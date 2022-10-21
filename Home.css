@@ -34,12 +34,12 @@ body {
 	transition:border .2s, color .2s ease-in;
 	font: size 18px;
 	padding-right: 64;
-	text-align: center;
+	
 	padding-top: 10%;
 }
 p {
 	font-family: 'Courier New', Courier, monospace;
-	
+	max-width: 25%;
 	background-color:#4a4a4a;
 	border:3px solid transparent;
 	width:80%;
