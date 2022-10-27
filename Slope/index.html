@@ -1,5 +1,11 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="UnityProgress.js"></script>
@@ -12,17 +18,18 @@
       var unityInstance = window.unityInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(window.unityInstance, "complete")}}});
     </script>
     <title>Slope</title>
-  </head>
-  <body>
-  <div aria-live="polite" aria-atomic="true" class="position-fixed d-flex justify-content-center align-items-center w-100" style="z-index: 1; margin-top: 1rem;">
-  <div class="alert alert-primary d-flex align-items-center alert-dismissible fade show" aria-live="assertive" aria-atomic="true" role="alert">
-  <i style="font-size: 24px; margin-right: 1rem;" class="bi bi-info-circle-fill"></i>
-  <div>
-    New Feature! Press "q" to quit slope and open Google-Classroom. Just press q when a teacher comes by.
-  </div>
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-  </div>
+</head>
+<body>
+   
+
+
+<link rel="stylesheet" href="Home.css">
+<nav id="navi" style="border:3px solid #ffc370">
+  
+   <center>
+  <a href="Home.html"><button class="ext" style="min-width: 100%;" id="home">Home</button></a></center>
+</nav>
+<center>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 800px; height: 600px; margin: auto;"></div>
             <div style="position: absolute; bottom: 1vh; left: 1vw;" class="fullscreen" onclick="window.unityInstance.SetFullscreen(1)">
@@ -35,9 +42,15 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    
+</center>
+
+
+
+
 
 <script data-goatcounter="https://betterslope.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-  </body>
+async src="//gc.zgo.at/count.js"></script>
+
+<script src="GAM.js"></script>
+</body>
 </html>
