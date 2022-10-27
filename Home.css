@@ -33,7 +33,7 @@ body {
 	color:white;
 	border-radius:3px;
 	transition:border .2s, color .2s ease-in;
-	font: size 30px;
+	font-size: large;
 	height: fit-content;
 
 	
