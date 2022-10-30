@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html id="ht" lang="en" style="cursor:url('IMG/gcur.png'), auto;">
 <head>
-   <meta name="google-site-verification" content="NZzmDOus_qQhNxYB-pN6lnkCLJh38m_Ri3W-67tycPE" />
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2111670364664156"
-     crossorigin="anonymous"></script>
+   
 <link rel="icon" type="image/png" href="favicon-32x32.png">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="title">Home</title>
+<title id="title">Upload</title>
 </head>
 <body>
    
