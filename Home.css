@@ -26,6 +26,7 @@ body {
 	
 }
 .button{
+	text-align: center;
 	background-color:transparent;
 	width: 30%;
 	font-family:Courier;
