@@ -81,31 +81,91 @@ function h5(){
 //normal
 function n1(){
 	home.style = "color:#ffffff; border:1px solid transparent;"
-	if(tab === 1){
+	if(tab == 1){
 		nav.style = "border: 3px solid #70ff96;"
+	}
+	if(tab == 2){
+		nav.style = "border:  3px solid #70deff;"
+	}
+	if(tab == 3){
+		nav.style = "border:  3px solid #cf70ff;"
+	}
+	if(tab == 4){
+		nav.style = "border:  3px solid #ffc370;"
+	}
+	if(tab === 5){
+		nav.style = "border:  3px solid #e83a3a;"
 	}
 }
 function n2(){
 	gal.style = "color:#ffffff; border:1px solid transparent;"
-	if(tab === 2){
+	if(tab == 1){
+		nav.style = "border: 3px solid #70ff96;"
+	}
+	if(tab == 2){
 		nav.style = "border:  3px solid #70deff;"
+	}
+	if(tab == 3){
+		nav.style = "border:  3px solid #cf70ff;"
+	}
+	if(tab == 4){
+		nav.style = "border:  3px solid #ffc370;"
+	}
+	if(tab === 5){
+		nav.style = "border:  3px solid #e83a3a;"
 	}
 }
 function n3(){
 	cnt.style = "color:#ffffff; border:1px solid transparent;"
-	if(tab === 3){
+	if(tab == 1){
+		nav.style = "border: 3px solid #70ff96;"
+	}
+	if(tab == 2){
+		nav.style = "border:  3px solid #70deff;"
+	}
+	if(tab == 3){
 		nav.style = "border:  3px solid #cf70ff;"
+	}
+	if(tab == 4){
+		nav.style = "border:  3px solid #ffc370;"
+	}
+	if(tab === 5){
+		nav.style = "border:  3px solid #e83a3a;"
 	}
 }
 function n4(){
 	ex.style = "color:#ffffff; border:1px solid transparent;"
-	if(tab === 4){
+	if(tab == 1){
+		nav.style = "border: 3px solid #70ff96;"
+	}
+	if(tab == 2){
+		nav.style = "border:  3px solid #70deff;"
+	}
+	if(tab == 3){
+		nav.style = "border:  3px solid #cf70ff;"
+	}
+	if(tab == 4){
 		nav.style = "border:  3px solid #ffc370;"
+	}
+	if(tab === 5){
+		nav.style = "border:  3px solid #e83a3a;"
 	}
 }
 function n5(){
 	dw.style = "color:#ffffff; border:1px solid transparent;"
-	if(tab === 4){
+	if(tab == 1){
+		nav.style = "border: 3px solid #70ff96;"
+	}
+	if(tab == 2){
+		nav.style = "border:  3px solid #70deff;"
+	}
+	if(tab == 3){
+		nav.style = "border:  3px solid #cf70ff;"
+	}
+	if(tab == 4){
+		nav.style = "border:  3px solid #ffc370;"
+	}
+	if(tab === 5){
 		nav.style = "border:  3px solid #e83a3a;"
 	}
 }
