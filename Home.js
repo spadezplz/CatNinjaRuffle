@@ -80,9 +80,6 @@ function h5(){
 //normal
 function n1(){
 	home.style = "color:#ffffff; border:1px solid transparent;"
-	if(hme.style.display = block){
-		alert()
-	}
 }
 function n2(){
 	gal.style = "color:#ffffff; border:1px solid transparent;"
