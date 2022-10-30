@@ -6,7 +6,7 @@ border:3px solid #ffc370;
 }
 .sidenav{
 	height: 25px;
-	width:30%;
+	max-width:25%;
 	text-align: center;
 }
 
@@ -28,7 +28,7 @@ body {
 .button{
 	text-align: center;
 	background-color:transparent;
-	width: 30%;
+	max-width: 25%;
 	font-family:Courier;
 	border:1px solid transparent;
 	color:white;
