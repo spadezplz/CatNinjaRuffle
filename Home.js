@@ -219,6 +219,6 @@ function p5(){
 	cntc.style = "display: none;"
 	ext.style = "display: none;"
 	dwn.style = "display: block;"
-	window.open('phantoms-archive.netlify.app/upload.php')
+	window.open(upload.php)
 }
 //end of style script
