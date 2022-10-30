@@ -58,6 +58,7 @@ p {
 nav {
 	background-color: black;
 	width: 25%;
+	height:100vh;
 }
 .Thumb {
 	cursor:url('IMG/ocur.png'), auto;
