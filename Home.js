@@ -202,7 +202,7 @@ function p3(){
 }
 function p4(){
 	ht.style = "cursor:url('IMG/ocur.png'), auto;"
-	title.innerHTML = "Online-Arcade"
+	title.innerHTML = "Arcade"
 	tab = 4
 	hme.style = "display: none;"
 	gall.style = "display: none;"
@@ -212,7 +212,7 @@ function p4(){
 }
 function p5(){
 	ht.style = "cursor:url('IMG/rcur.png'), auto;"
-	title.innerHTML = "Downloads"
+	title.innerHTML = "Files"
 	tab = 5
 	hme.style = "display: none;"
 	gall.style = "display: none;"
