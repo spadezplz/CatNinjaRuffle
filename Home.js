@@ -192,7 +192,7 @@ function p2(){
 }
 function p3(){
 	ht.style = "cursor:url('IMG/pcur.png'), auto;"
-	title.innerHTML = "Contact Us"
+	title.innerHTML = "Forums"
 	tab = 3
 	hme.style = "display: none;"
 	gall.style = "display: none;"
