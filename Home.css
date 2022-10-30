@@ -8,7 +8,7 @@ border:3px solid #ffc370;
 	height: 25px;
 	max-width:25%;
 	text-align: center;
-	position: sticky;
+	position: fixed;
 }
 
   .main {
