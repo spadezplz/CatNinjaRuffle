@@ -60,7 +60,7 @@ p {
 }
 nav {
 	background-color: black;
-	width: 25%;
+	max-width: 25%;
 	height:100vh;
 }
 .Thumb {
