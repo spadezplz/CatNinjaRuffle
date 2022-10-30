@@ -59,23 +59,23 @@ function scroll(){
 //highlight
 function h1(){
 	home.style = " color:#70ff96; border:4px solid #70ff96; cursor:url('IMG/gcur.png'), auto;"
-	nav.style = "border:#70ff96;"
+	nav.style = "border: 3px solid #70ff96;"
 }
 function h2(){
 	gal.style = "color:#70deff; border:4px solid #70deff; cursor:url('IMG/bcur.png'), auto;"
-	nav.style = "border:#70deff;"
+	nav.style = "border:  3px solid #70deff;"
 }
 function h3(){
 	cnt.style = "color:#cf70ff; border:4px solid #cf70ff; cursor:url('IMG/pcur.png'), auto;"
-	nav.style = "border:#cf70ff;"
+	nav.style = "border:  3px solid #cf70ff;"
 }
 function h4(){
 	ex.style = "color:#ffc370; border:4px solid #ffc370; cursor:url('IMG/ocur.png'), auto;"
-	nav.style = "border:#ffc370;"
+	nav.style = "border:  3px solid #ffc370;"
 }
 function h5(){
 	dw.style = "color: #e83a3a; border:4px solid #e83a3a; cursor:url('IMG/rcur.png'), auto;"
-	nav.style = "border:#e83a3a;"
+	nav.style = "border:  3px solid #e83a3a;"
 }
 //normal
 function n1(){
