@@ -42,7 +42,6 @@ var sticky = nav.offsetTop;
 //on leave
 function scroll(){
 	if (window.pageYOffset >= sticky) {
-		nav.style = "background-color:red;"
 		nav.classList.add("sticky")
 	  } else {
 		nav.classList.remove("sticky");
