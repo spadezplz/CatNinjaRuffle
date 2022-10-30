@@ -4,6 +4,7 @@ var gal = document.getElementById("gal")
 var cnt = document.getElementById("cnt")
 var ex = document.getElementById("ex")
 var dw = document.getElementById("dw")
+var nav = document.getElementById("navi")
 
 var title = document.getElementById("title")
 var ht = document.getElementById("ht")
@@ -33,9 +34,20 @@ gal.addEventListener("click", p2)
 cnt.addEventListener("click", p3)
 ex.addEventListener("click", p4)
 dw.addEventListener("click", p5)
+
+window.onscroll = function() {scroll()};
+
+var sticky = nav.offsetTop;
 //end of event listeners
 //on leave
+function scroll(){
+	if (window.pageYOffset >= sticky) {
+		nav.classList.add("sticky")
+	  } else {
+		nav.classList.remove("sticky");
+	  }
 
+}
 
 
 
