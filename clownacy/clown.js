@@ -1,7 +1,9 @@
+var iframe = document.getElementById("myFrame");
 setInterval(function(){
-    var iframe = document.getElementById("myFrame");
+    
 
     iframe.removeChild();
 
 
 },1)
+iframe.contentWindow.scrollTo(0,50);
