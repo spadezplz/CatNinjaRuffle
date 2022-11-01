@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<!-- saved from url=(0044)https://sonicresearch.org/clownacy/cave.html -->
-<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    
-    <title>Cave Story Engine 2 ~ Doukutsu Monogatari Enjin 2</title>
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Emscripten-Generated Code</title>
     <style>
       .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
       textarea.emscripten { font-family: monospace; width: 80%; }
@@ -61,13 +61,13 @@
    <hr/>
    -->
     <h1 style="font-family:sans-serif;text-align:center;">Cave Story Emscripten port</h1>
-    <figure style="overflow:visible;" id="spinner" hidden=""><div class="spinner"></div><center style="margin-top:0.5em"><strong>emscripten</strong></center></figure>
-    <div class="emscripten" id="status"></div>
+    <figure style="overflow:visible;" id="spinner"><div class="spinner"></div><center style="margin-top:0.5em"><strong>emscripten</strong></center></figure>
+    <div class="emscripten" id="status">Downloading...</div>
     <div class="emscripten">
-      <progress value="0" max="1" id="progress" hidden=""></progress>  
+      <progress value="0" max="100" id="progress" hidden=1></progress>  
     </div>
  <!--   <div class="emscripten_border"> -->
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" width="640" height="480" style="cursor: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAItJREFUWEft1kEOwCAIBED4/6NtuElaBQ0LPeCxMWFc026Ziher+YMGMelnYOAbIAMTEd+ARMQakITYAxIQNgCM8AGACD8AhDgDABDngGDEHSAQ4QeAvo5+QOCp53rZd4GUk94dXlR2G4IR9onKAXIFQISdwC8AMyL4dfQlAPwta0An0Al0Ap1AeQIPPXoqIVL9GYYAAAAASUVORK5CYII=&quot;), auto;"></canvas>
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 <!--    </div>-->
     <!--
     <hr/>
@@ -83,9 +83,20 @@
     <textarea class="emscripten" id="output" rows="8"></textarea>
     <hr>
     -->
-	<br>
-    
-    <script type="text/javascript">
+	<br/>
+    <div class='content' style='text-align:center;font-family:"Trebuchet MS",Helvetica,sans-serif;'>
+		<strong>You need a powerful device for this to run at full speed.</strong>
+		<p>
+			Emscripten is annoying to port things to: one of its biggest limitations is that you can't use any mainloops
+			(the infinite loops a game puts itself in so it runs indefinitely), but Cave Story's engine *heavily* relies
+			on them. On the upside, Emscripten supports SDL2, so I didn't have to rewrite any of the existing backend code.
+		</p>
+		<p>
+			If you're new here, this port is based on CSE2 - the Cave Story decompilation project.
+			<br/><a href='https://github.com/Clownacy/Cave-Story-Engine-2/tree/emscripten'>You can find the source code here.</a>
+		</p>
+    </div>
+    <script type='text/javascript'>
       var statusElement = document.getElementById('status');
       var progressElement = document.getElementById('progress');
       var spinnerElement = document.getElementById('spinner');
@@ -180,9 +191,8 @@
       document.getElementById('canvas').addEventListener('click', resumeAudio);
       document.addEventListener('keydown', resumeAudio);
     </script>
-    <script async="" type="text/javascript" src="CSE2.js"></script>
-  
+    <script async type="text/javascript" src="CSE2.js"></script>
+  </body>
+</html>
 
 
-
-</body></html>
