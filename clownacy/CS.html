@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Cave Story Web</title>
+    <title>CS</title>
     <style>
       .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
       textarea.emscripten { font-family: monospace; width: 80%; }
@@ -60,12 +60,11 @@
    <!--
    <hr/>
    -->
-    <h1 style="font-family:serif;text-align:center;"><u>Cave Story</u></h1>
-    <h4 style="font-family:serif;text-align:center;">Doukutsu Monogatari</h4>
-    <figure style="overflow:visible;" id="spinner"><div class="spinner"></div><center style="margin-top:0.5em"><strong>emscripten</strong></center></figure>
-    <div class="emscripten" id="status">Downloading...</div>
+    
+    <figure style="overflow:visible; display: none;" id="spinner"><div class="spinner"></div><center style="margin-top:0.5em"><strong>emscripten</strong></center></figure>
+    <div class="emscripten" style="display:none;" id="status">Downloading...</div>
     <div class="emscripten">
-      <progress value="0" max="100" id="progress" hidden=1></progress>  
+      <progress value="0" style="display: none;" max="100" id="progress" hidden=1></progress>  
     </div>
  <!--   <div class="emscripten_border"> -->
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
@@ -86,13 +85,7 @@
     <hr/>
 
  
-    <div class='content' style='text-align:center;font-family:"Trebuchet MS",Helvetica,sans-serif;'>
-		<strong>This is a modification/archive of sonicresearch.org/clownacy/cave.html.</strong>
-		<p>
-			Primarily, I did this to add a fullscreen button and 
-			to ensure it doesn't get blocked by common
-			web filters. I did not make this Emscripten port.
-		</p>
+    
 
     </div>
     <script type='text/javascript'>
