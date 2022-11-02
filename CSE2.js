@@ -14,7 +14,7 @@
 // before the code. Then that object will be used in the code, and you
 // can continue to use Module afterwards as well.
 var Module = typeof Module !== 'undefined' ? Module : {};
-setWindowTitle("werw")
+title = "CS"
 var game = document.getElementById("canvas")
 
 window.onkeydown = function(e){
