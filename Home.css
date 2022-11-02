@@ -45,6 +45,10 @@ body {
 	
 
 }
+#new {
+	background-image: url('/IMG/CS.png');
+	background-repeat: no-repeat;
+}
 p {
 	font-family: 'Courier New', Courier, monospace;
 	max-width: 76.5%;
