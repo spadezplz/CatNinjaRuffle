@@ -15,7 +15,21 @@
 // can continue to use Module afterwards as well.
 var Module = typeof Module !== 'undefined' ? Module : {};
 
+var game = document.getElementById("canvas")
 
+window.onkeydown = function(e){
+	
+  if(e.keyCode === 55){
+    show()
+  }}
+  function show(){
+		game.style = "display: block;"
+		
+	}
+
+  window.onblur = function(){
+    game.style = "display: none;"
+    }
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)

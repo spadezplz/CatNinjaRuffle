@@ -1,7 +1,7 @@
 //variables
 var home = document.getElementById("home")
  var game = document.getElementById("ruffle")
- var game1 = document.getElementById("canvas")
+ 
 //
 var hme = document.getElementById("hme")
 var tim = 10
@@ -26,7 +26,7 @@ home.addEventListener("mouseleave", n1)
 
 	function show(){
 		game.style = "display: block;"
-		game1.style = "display: block;"
+		
 	}
 
 
