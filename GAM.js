@@ -1,6 +1,6 @@
 //variables
 var home = document.getElementById("home")
- var game = document.getElementById("ruffle")
+ var game = document.getElementById("ruffle","canvas")
 //
 var hme = document.getElementById("hme")
 var tim = 10
