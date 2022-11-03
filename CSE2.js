@@ -5508,10 +5508,10 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
         // try to keep 60fps between calls to here
         var now = Date.now();
         if (Browser.nextRAF === 0) {
-          Browser.nextRAF = now + 1100/10;
+          Browser.nextRAF = now + 1100/100;
         } else {
-          while (now + 2 >= Browser.nextRAF) { // fudge a little, to avoid timer jitter causing us to do lots of delay:0
-            Browser.nextRAF += 1100/10;
+          while (now + 1 >= Browser.nextRAF) { // fudge a little, to avoid timer jitter causing us to do lots of delay:0
+            Browser.nextRAF += 1100/100;
           }
         }
         var delay = Math.max(Browser.nextRAF - now, 0);
