@@ -5510,7 +5510,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
         if (Browser.nextRAF === 0) {
           Browser.nextRAF = now + 1100/100;
         } else {
-          while (now + 1 >= Browser.nextRAF) { // fudge a little, to avoid timer jitter causing us to do lots of delay:0
+          while (now + 2 >= Browser.nextRAF) { // fudge a little, to avoid timer jitter causing us to do lots of delay:0
             Browser.nextRAF += 1100/100;
           }
         }
