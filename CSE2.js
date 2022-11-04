@@ -5514,7 +5514,7 @@ function _emscripten_asm_const_iii(code, sigPtr, argbuf) {
             Browser.nextRAF += 1100/100;
           }
         }
-        var delay = Math.max(Browser.nextRAF - now, 1);
+        var delay = Math.max(Browser.nextRAF - 60, 0);
         setTimeout(func, delay);
       },requestAnimationFrame:function(func) {
         if (typeof requestAnimationFrame === 'function') {
