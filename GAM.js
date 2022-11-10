@@ -6,7 +6,7 @@ var home = document.getElementById("home")
 function goFullScreen(){
 	
 	for (const child of game.children) {
-	  child.tagName.requestFullscreen();
+	  child.requestFullscreen();
 	}
 	
 }
