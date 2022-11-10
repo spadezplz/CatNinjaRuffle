@@ -3,6 +3,10 @@ var home = document.getElementById("home")
  var game = document.getElementById("ruffle")
  
 //
+function goFullScreen(){
+
+	
+}
 var hme = document.getElementById("hme")
 var tim = 10
 //end of variables
