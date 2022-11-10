@@ -4,7 +4,7 @@ var home = document.getElementById("home")
  
 //
 function goFullScreen(){
-game.requestFullscreen()
+game.children.requestFullscreen()
 	
 }
 var hme = document.getElementById("hme")
