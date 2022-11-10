@@ -4,7 +4,10 @@ var home = document.getElementById("home")
  
 //
 function goFullScreen(){
-game.children.requestFullscreen()
+	
+	for (const child of game.children) {
+	  alert(child.tagName);
+	}
 	
 }
 var hme = document.getElementById("hme")
