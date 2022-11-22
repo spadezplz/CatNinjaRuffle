@@ -51,6 +51,14 @@ body {
 	background-repeat: no-repeat;
 	
 }
+select {
+	font-family: 'Courier New', Courier, monospace;
+	background-color:#4a4a4a;
+	border:3px solid #e83a3a;
+	border-radius:4px;
+	font-size:17px;
+	color: white;
+}
 p {
 	font-family: 'Courier New', Courier, monospace;
 	max-width: 76.5%;
