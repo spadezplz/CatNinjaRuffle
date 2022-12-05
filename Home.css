@@ -109,7 +109,7 @@ nav {
 
   /* Dropdown Button */
 .dropbtn {
-	
+	position: relative;
 	background-color: #3498DB;
 	color: white;
 	padding: 16px;
@@ -131,7 +131,7 @@ nav {
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
 	display: none;
-	
+	position: relative;
 	background-color: #f1f1f1;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
