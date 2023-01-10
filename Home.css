@@ -45,10 +45,15 @@ body {
 	
 
 }
-#new {
+.new {
 	background-image: url('/IMG/CS.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	cursor:url('IMG/ocur.png'), auto;
+	width:200px;
+	height: 125px;
+	border:3px solid #ffc370;
+	border-radius: 3px;
 	
 }
 select {
