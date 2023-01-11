@@ -46,7 +46,7 @@ body {
 
 }
 .new {
-	
+	border-image: url(IMG/R.png);
 	
 	background-repeat: no-repeat;
 	cursor:url('IMG/ocur.png'), auto;
