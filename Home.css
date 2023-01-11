@@ -46,11 +46,7 @@ body {
 
 }
 .new {
-	background-image: url('/IMG/R.png');
-	position: relative;
-	display: inline;
-	background-size: cover;
-	z-index: 5;
+	border-image: url(IMG/R.png);
 	background-repeat: no-repeat;
 	cursor:url('IMG/ocur.png'), auto;
 	width:200px;
