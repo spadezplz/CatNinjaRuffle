@@ -13,13 +13,7 @@ function goFullScreen(){
 var hme = document.getElementById("hme")
 var tim = 10
 //end of variables
-window.onkeydown = function(e){
-	
-if(e.keyCode === 55){
-	show()
-}
 
-}
 //event listeners
 home.addEventListener("mouseover", h1)
 
@@ -39,9 +33,7 @@ home.addEventListener("mouseleave", n1)
 
 
 
-window.onblur = function(){
-game.style = "display: none;"
-}
+
 
 
 
