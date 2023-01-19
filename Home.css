@@ -70,7 +70,7 @@ p {
 	min-width: 76.5%;
 	background-color:#4a4a4a;
 	border:3px solid transparent;
-	
+	position: static;
 	
 	height:1200px;
 	border-radius:4px;
@@ -82,7 +82,7 @@ p {
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 17px;
 	text-align: center;
-
+position: static;
 }
 .announcement {
 	text-align:center; 
