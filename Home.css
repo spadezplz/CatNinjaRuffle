@@ -51,7 +51,7 @@ body {
 	background-repeat: no-repeat;
 	cursor:url('IMG/ocur.png'), auto;
 	width:20vw;
-	height: 15vh;
+	height: 12vh;
 	border:3px solid #ffc370;
 	border-radius: 3px;
 	
@@ -98,9 +98,12 @@ nav {
 }
 
 .Thumb {
+	border-image: url(IMG/R.png);
+	
+	background-repeat: no-repeat;
 	cursor:url('IMG/ocur.png'), auto;
-	width:200px;
-	height: 125px;
+	width:20vw;
+	height: 12vh;
 	border:3px solid #ffc370;
 	border-radius: 3px;
 	
