@@ -78,6 +78,12 @@ p {
 	color:white;
 	font-size:17px;
 }
+.name{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 17px;
+	text-align: center;
+
+}
 .announcement {
 	text-align:center; 
 	color:white; 
