@@ -38,13 +38,14 @@ body {
 
 .button{
 	text-align: center;
+	padding: 2px;
 	background-color:transparent;
 	font-family:Pixel;
 	border:1px solid transparent;
 	color:white;
 	border-radius:3px;
 	transition:border .2s, color .2s ease-in;
-	font-size: 10vh;
+	font-size: 7vh;
 	height: fit-content;
 }
 .new {
