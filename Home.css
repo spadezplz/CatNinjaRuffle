@@ -34,8 +34,11 @@ body {
 .button{
 	text-align: center;
 	background-color:transparent;
-	
-	font-family:src('font2.ttf');
+	@font-face {
+		font-family: Pixel;
+		src: url(font2.ttf);
+	 }
+	font-family:'Pixel';
 	border:1px solid transparent;
 	color:white;
 	border-radius:3px;
