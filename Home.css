@@ -44,7 +44,7 @@ body {
 	color:white;
 	border-radius:3px;
 	transition:border .2s, color .2s ease-in;
-	font-size: 7vh;
+	font-size: 4vh;
 	height: fit-content;
 }
 .new {
