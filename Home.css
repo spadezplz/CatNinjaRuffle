@@ -31,23 +31,21 @@ body {
 	
 }
 
+@font-face {
+	font-family: Pixel;
+	src: url(font2.ttf);
+ }
+
 .button{
 	text-align: center;
 	background-color:transparent;
-	@font-face {
-		font-family: Pixel;
-		src: url(font2.ttf);
-	 }
-	font-family:'Pixel';
+	font-family:Pixel;
 	border:1px solid transparent;
 	color:white;
 	border-radius:3px;
 	transition:border .2s, color .2s ease-in;
 	font-size: large;
 	height: fit-content;
-
-	
-
 }
 .new {
 	border-image: url(IMG/R.png);
