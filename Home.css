@@ -30,11 +30,12 @@ body {
 	background-color:#2F2F2F;
 	
 }
+
 .button{
 	text-align: center;
 	background-color:transparent;
 	
-	font-family:Courier;
+	font-family:src('font2.ttf');
 	border:1px solid transparent;
 	color:white;
 	border-radius:3px;
